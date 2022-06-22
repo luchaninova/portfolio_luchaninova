@@ -35,6 +35,37 @@ p {
   color: rgba(39, 33, 66, 0.7);
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -43,7 +74,7 @@ p {
 
 .hero,
 .content-wrapper {
-  padding: 160px 20px;
+  padding: 80px 20px;
   background: var(--secondary-color);
 }
 
@@ -95,10 +126,21 @@ p {
 }
 
 @media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
   .hero {
     text-align: center;
     padding: 0;
   }
+
   .img-fluid {
     max-width: 70%;
   }
