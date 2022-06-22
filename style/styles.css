@@ -41,7 +41,8 @@ p {
   vertical-align: middle;
 }
 
-.hero {
+.hero,
+.content-wrapper {
   padding: 160px 20px;
   background: var(--secondary-color);
 }
@@ -75,8 +76,22 @@ p {
   padding: 15px 30px;
 }
 
-.homepage-contant h2 {
+.content-section h2 {
   font-size: 50px;
+}
+
+.content-section-link {
+  text-decoration: none;
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.content-section-link:hover {
+  color: #000000;
 }
 
 @media (max-width: 900px) {
