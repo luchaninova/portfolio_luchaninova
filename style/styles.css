@@ -23,10 +23,7 @@ h1 {
 }
 
 h2 {
-  font-family: var(--text-font);
-  font-size: 18px;
-  line-height: 27px;
-  color: #272142;
+  font-size: 64px;
 }
 
 p {
@@ -38,8 +35,26 @@ p {
   color: rgba(39, 33, 66, 0.7);
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
 .hero {
   padding: 160px 20px;
+  background: var(--secondary-color);
+}
+
+.hero h2 {
+  font-family: var(--text-font);
+  font-size: 18px;
+  line-height: 27px;
+  color: #272142;
+}
+
+.hero .img-fluid {
+  max-width: 90%;
 }
 
 .btn-branding {
@@ -51,10 +66,17 @@ p {
   padding: 15px 30px;
 }
 
-.img-fluid {
-  max-width: 90%;
-  height: auto;
-  vertical-align: middle;
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.homepage-contant h2 {
+  font-size: 50px;
 }
 
 @media (max-width: 900px) {
