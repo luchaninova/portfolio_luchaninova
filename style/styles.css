@@ -116,7 +116,7 @@ footer .signature a {
 }
 
 .hero .img-fluid {
-  max-width: 90%;
+  max-width: 50%;
 }
 
 .btn-branding {
@@ -155,10 +155,10 @@ footer .signature a {
   color: #000000;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 991px) {
   h1 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 50px;
   }
 
   p {
@@ -172,6 +172,6 @@ footer .signature a {
   }
 
   .img-fluid {
-    max-width: 70%;
+    max-width: 30%;
   }
 }
